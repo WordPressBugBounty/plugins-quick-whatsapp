@@ -23,16 +23,7 @@ $buttondesign4 = '<img src="' . plugins_url( 'images/whatsapp-chat-creativ.png',
 
 <h3><?php _e('Installation','quick-whatsapp'); ?></h3>
 <?php _e('Enter your mobile phone number which you can receive WhatsApp Msg','quick-whatsapp'); ?>
-<!---
-<p>Mit diesem Plugin können ihre Leser / Kunden ganz einfach via WhatsApp mit Ihnen Kontakt aufnehmen. Der WhatsApp Button erscheint bei allen Beiträge. Wenn ein User an einem Computer sitzt und auf den Button klickt, wird er zur Whatsapp Webseite geleitet und kann dort die Nachricht abschicken. Ist der User am Handy, dann wird die WhatsApp App geöffnet.</p>
-<b>Englisch / English</b>
-<p>With this Plugin installed, a WhatsApp Button will show on each Post in your WordPress.</p>
-<h3>Installation</h3>
-<b>Deutsch / German</b>
-<p>Bitte geben Sie unten ihre Handnummer ein - wie im Beispiel erklärt. Solange das Feld leer ist, erscheint überall in der Administration eine Warnung.</p>
-<b>Englisch / English</b>
-<p>Enter your mobile phone nummer which you can receive WhatsApp Msg</p>	
- -->	
+	
 </td>
 <td width='30%' style='background-color:antiquewhite; text-align: center'>
 <h3><?php _e('Menu','quick-whatsapp'); ?></h3>
@@ -1315,8 +1306,6 @@ echo '</form><br />';
 
 echo "" . __('if you dont use a own group button then you will see this button','quick-whatsapp') . " <br /> $quickwhatsapp_groupelink_button1";
   echo '<br /><br />';
-
-
 
 	
   echo '<hr>';

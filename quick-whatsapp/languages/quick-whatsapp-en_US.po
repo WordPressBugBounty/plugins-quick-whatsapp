@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Simple Webchat\n"
-"POT-Creation-Date: 2024-05-02 09:18+0200\n"
-"PO-Revision-Date: 2024-05-02 09:19+0200\n"
+"POT-Creation-Date: 2024-06-27 09:52+0200\n"
+"PO-Revision-Date: 2024-06-27 09:52+0200\n"
 "Last-Translator: Eric Mächler <eric@chefblogger.me>\n"
 "Language-Team: Eric Mächler <eric@chefblogger.me>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: simple-webchat.php\n"
@@ -64,11 +64,11 @@ msgstr "Status"
 msgid "Floating Button"
 msgstr "Floating Button"
 
-#: form.php:43 form.php:1015
+#: form.php:43 form.php:1204
 msgid "WhatsApp Group Link"
 msgstr "WhatsApp Group Link"
 
-#: form.php:44 form.php:1057
+#: form.php:44 form.php:1331
 msgid "Shortcode"
 msgstr "Shortcode"
 
@@ -76,46 +76,47 @@ msgstr "Shortcode"
 msgid "Templates for Button Design"
 msgstr "Templates for Button Design"
 
-#: form.php:664
+#: form.php:851
 msgid "Quick WhatsApp Chat Options"
 msgstr "Quick WhatsApp Chat Options"
 
-#: form.php:666
+#: form.php:853
 msgid "Mobile phone number (417611122233)"
 msgstr "Mobile phone number (417611122233)"
 
-#: form.php:669 form.php:686 form.php:756 form.php:767 form.php:846
-#: form.php:878 form.php:887 form.php:945 form.php:982 form.php:1003
-#: form.php:1021 form.php:1035
+#: form.php:856 form.php:873 form.php:943 form.php:954 form.php:1033
+#: form.php:1065 form.php:1074 form.php:1132 form.php:1169 form.php:1190
+#: form.php:1210 form.php:1230 form.php:1250 form.php:1271 form.php:1289
+#: form.php:1307
 msgid "Save"
 msgstr "Save"
 
-#: form.php:675 form.php:691 form.php:772 form.php:892 form.php:1026
-#: form.php:1040
+#: form.php:862 form.php:878 form.php:959 form.php:1079 form.php:1215
+#: form.php:1235 form.php:1255 form.php:1276 form.php:1294 form.php:1312
 msgid "Reset"
 msgstr "Reset"
 
-#: form.php:683
+#: form.php:870
 msgid "Own Chat Greeting-Words"
 msgstr "Own Chat Greeting-Words"
 
-#: form.php:698
+#: form.php:885
 msgid "Quick Whatsapp Button Design Settings"
 msgstr "Quick Whatsapp Button Design Settings"
 
-#: form.php:699
+#: form.php:886
 msgid "Choose your Button Design from 4 Styles"
 msgstr "Choose your Button Design from 4 Styles"
 
-#: form.php:764 form.php:884
+#: form.php:951 form.php:1071
 msgid "Custom Button (https://www.yourdomain.ch/whatsappbutton.jpg)"
 msgstr "Custom Button (https://www.yourdomain.com/whatsappbutton.jpg)"
 
-#: form.php:794
+#: form.php:981
 msgid "Chat Button activ / inactiv"
 msgstr "Chat Button activ / inactiv"
 
-#: form.php:795
+#: form.php:982
 msgid ""
 "If you do not want the normal chat button to be displayed, you can "
 "deactivate it here."
@@ -123,27 +124,27 @@ msgstr ""
 "If you do not want the normal chat button to be displayed, you can "
 "deactivate it here."
 
-#: form.php:800
+#: form.php:987
 msgid "Chat Button is deactivated / hidden"
 msgstr "Chat Button is deactivated / hidden"
 
-#: form.php:804
+#: form.php:991
 msgid "Chat Button is active / visible"
 msgstr "Chat Button is active / visible"
 
-#: form.php:839
+#: form.php:1026
 msgid "Chat is offline"
 msgstr "Chat is offline"
 
-#: form.php:843
+#: form.php:1030
 msgid "Chat is online"
 msgstr "Chat is online"
 
-#: form.php:865
+#: form.php:1052
 msgid "Quick Whatsapp Share Functions"
 msgstr "Quick Whatsapp Share Functions"
 
-#: form.php:866
+#: form.php:1053
 msgid ""
 "If you want to display a share button in addition to the chat button (only "
 "works if the chat button is active)"
@@ -151,19 +152,19 @@ msgstr ""
 "If you want to display a share button in addition to the chat button (only "
 "works if the chat button is active)"
 
-#: form.php:871
+#: form.php:1058
 msgid "Share Function off"
 msgstr "Share Function off"
 
-#: form.php:875
+#: form.php:1062
 msgid "Share Function on"
 msgstr "Share Function on"
 
-#: form.php:932
+#: form.php:1119
 msgid "Show Chat Button after Cart Button?"
 msgstr "Show Chat Button after Cart Button?"
 
-#: form.php:933
+#: form.php:1120
 msgid ""
 "This button appears in WooCommerce on the product detail page - directly "
 "after the Add-To-Cart button (shopping cart button)"
@@ -171,19 +172,19 @@ msgstr ""
 "This button appears in WooCommerce on the product detail page - directly "
 "after the Add-To-Cart button (shopping cart button)"
 
-#: form.php:938
+#: form.php:1125
 msgid "off"
 msgstr "off"
 
-#: form.php:942
+#: form.php:1129
 msgid "on"
 msgstr "on"
 
-#: form.php:969
+#: form.php:1156
 msgid "Floating Button active oder inactiv?"
 msgstr "Floating Button active oder inactiv?"
 
-#: form.php:970
+#: form.php:1157
 msgid ""
 "If you want, you can activate the floating button here. A small round button "
 "will then be visible on the bottom right-hand side."
@@ -191,67 +192,83 @@ msgstr ""
 "If you want, you can activate the floating button here. A small round button "
 "will then be visible on the bottom right-hand side."
 
-#: form.php:975
+#: form.php:1162
 msgid "Floating Button is deactivated"
 msgstr "Floating Button is deactivated"
 
-#: form.php:979
+#: form.php:1166
 msgid "Floating Button is actived"
 msgstr "Floating Button is actived"
 
-#: form.php:995
+#: form.php:1182
 msgid "Floating Button Position"
 msgstr "Floating Button Position"
 
-#: form.php:997
+#: form.php:1184
 msgid "Position from right to left in px or %"
 msgstr "Position from right to left in px or %"
 
-#: form.php:998 form.php:1001
+#: form.php:1185 form.php:1188
 msgid "ex. 100px or 10%"
 msgstr "ex. 100px or 10%"
 
-#: form.php:1000
+#: form.php:1187
 msgid "Position from bottom to above in px or %"
 msgstr "Position from bottom to above in px or %"
 
-#: form.php:1016
+#: form.php:1205 form.php:1225 form.php:1245
 msgid "This is your Shortcode"
 msgstr "This is your Shortcode"
 
-#: form.php:1018
+#: form.php:1207 form.php:1227 form.php:1247
 msgid "WhatsApp Group ID"
 msgstr "WhatsApp Group ID"
 
-#: form.php:1018
+#: form.php:1207 form.php:1227 form.php:1247
 msgid "Example"
 msgstr "Example"
 
-#: form.php:1044
+#: form.php:1224
+msgid "WhatsApp Group Link 2"
+msgstr "WhatsApp Group Link 2"
+
+#: form.php:1244
+msgid "WhatsApp Group Link 3"
+msgstr "WhatsApp Group Link 3"
+
+#: form.php:1280 form.php:1298 form.php:1316
 msgid "if you dont use a own group button then you will see this button"
 msgstr "if you dont use a own group button then you will see this button"
 
-#: form.php:1058
+#: form.php:1332
 msgid "The following shortcodes are available"
 msgstr "The following shortcodes are available"
 
-#: form.php:1060
+#: form.php:1334
 msgid "Chat Button"
 msgstr "Chat Button"
 
-#: form.php:1062
+#: form.php:1336
 msgid "Quick WhatsApp Share Button"
 msgstr "Quick WhatsApp Share Button"
 
-#: form.php:1064
+#: form.php:1338
 msgid "Quick WhatsApp Group Link"
 msgstr "Quick WhatsApp Group Link"
 
-#: form.php:1070
+#: form.php:1340
+msgid "Quick WhatsApp Group Link 2"
+msgstr "Quick WhatsApp Group Link 2"
+
+#: form.php:1342
+msgid "Quick WhatsApp Group Link 3"
+msgstr "Quick WhatsApp Group Link 3"
+
+#: form.php:1348
 msgid "Plugin recommendation"
 msgstr "Plugin recommendation"
 
-#: form.php:1071
+#: form.php:1349
 msgid ""
 "if you need are looking for a seo plugin for your wordpress, then I "
 "recommend this plugin called \"WP Smart SEO\"."
@@ -259,11 +276,11 @@ msgstr ""
 "if you need are looking for a seo plugin for your wordpress, then I "
 "recommend this plugin called \"WP Smart SEO\"."
 
-#: form.php:1072 form.php:1075
+#: form.php:1350 form.php:1353
 msgid "Download:"
 msgstr "Download:"
 
-#: form.php:1074
+#: form.php:1352
 msgid ""
 "If you want to install google analytics (Universal and GA4), then I "
 "recommend this plugin \"Quick Google Analytics\"."
@@ -271,15 +288,15 @@ msgstr ""
 "If you want to install google analytics (Universal and GA4), then I "
 "recommend this plugin \"Quick Google Analytics\"."
 
-#: form.php:1077
+#: form.php:1355
 msgid "all 3 plugins work perfectly together"
 msgstr "all 3 plugins work perfectly together"
 
-#: form.php:1081
+#: form.php:1359
 msgid "Information"
 msgstr "Information"
 
-#: form.php:1082
+#: form.php:1360
 msgid "This is the Simple Webchat Plugin for WordPress - created by"
 msgstr "This is the Simple Webchat Plugin for WordPress - created by"
 

@@ -48,31 +48,12 @@ $quickwhatsapps_onlineoffline_offline_image = '<img src="' . plugins_url( 'image
 		
 	
 		
-		
-/*		
-//$whatsappbuttonbild_eigeneversion = "<a href='https://api.whatsapp.com/send?phone=$quickwhatsapp_anzeige' target='_blank'><img src='$quickwhatsappbutton_show'></a>  ";	
-if (preg_match('/Firefox/i',$checkbrowser)) 
-    { 
-    //$browserweiche = 'https://web.whatsapp.com/send?phone=';
-	$whatsappbuttonbild_eigeneversion = "<a href='https://web.whatsapp.com/send?phone=$quickwhatsapp_anzeige' target='_blank'><img src='$quickwhatsappbutton_show'></a>  ";
-    } 
-else {
-	
-	//$browserweiche = 'https://api.whatsapp.com/send?phone=';
-	$whatsappbuttonbild_eigeneversion = "<a href='https://api.whatsapp.com/send?phone=$quickwhatsapp_anzeige' target='_blank'><img src='$quickwhatsappbutton_show'></a>  ";
-}
-*/
+
 		
 $quickwhatsapps_greetings = get_option('quickwhatsapps_greetings');
 
-		/*
-$check_iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$check_android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-$check_palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-$check_berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$check_ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-if ($check_iphone || $check_android || $check_palmpre || $check_ipod || $check_berry == true)
-*/
+
+
 if (wp_is_mobile())
 {
  //header('Location: https://api.whatsapp.com/send?phone=YOURNUMBER&text=YOURTEXT');
@@ -160,14 +141,7 @@ else
 	}
 	
 	
-
-
-
-
-
-
-					
-					
+	
 					
 					
 					$quickwhatsappsharing_button = "<a href='whatsapp://send?text=Interessanter%20Link:%20$quickwhatsappsharing_titel%20$quickwhatsappsharing_link'>$quickwhatsappsharing_button_img</a>";

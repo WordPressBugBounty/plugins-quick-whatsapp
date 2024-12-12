@@ -45,19 +45,7 @@ if ($quickwhatsappsharebutton == '')
 						  }
 	
 	
-					/* ###################################################################### */
-					//$quickwhatsappsharing_button = "<a href='whatsapp://send?text=Interessanter%20Link:%20$quickwhatsappsharing_titel%20$quickwhatsappsharing_link'>$quickwhatsappsharing_button_img</a>";
-	
-	/* ###################################### */
-/*
-	$check_iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$check_android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-$check_palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-$check_berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$check_ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-// check if is a mobile
-if ($check_iphone || $check_android || $check_palmpre || $check_ipod || $check_berry == true)
-*/
+					
 	
 if (wp_is_mobile())
 {
@@ -78,19 +66,7 @@ $quickwhatsappsharing_button = "<a href='https://web.whatsapp.com/send?text=Inte
 			}
 			else
 			{
-					//$quickwhatsappsharing_button_img = "<img src='$quickwhatsappsharebutton'>";
-					//$quickwhatsappsharing_button = "<a href='whatsapp://send?text=Interessanter%20Link:%20$quickwhatsappsharing_titel%20$quickwhatsappsharing_link'>$quickwhatsappsharing_button_img</a>";
-	/* ###################################### */
-
-/*
-$check_iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$check_android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-$check_palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-$check_berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$check_ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-// check if is a mobile
-if ($check_iphone || $check_android || $check_palmpre || $check_ipod || $check_berry == true)
-*/
+					
 				
 if (wp_is_mobile())
 {

@@ -2,12 +2,14 @@
 /*
 Plugin Name: Simple Webchat
 Plugin URI: http://www.chefblogger.me
-Description: With Simple Webchat you can quickly add a WhatsApp Button into your Website. Settings for <a href="options-general.php?page=QWA_quickwhatsapp">Quick WhatsApp Administration</a>
-Version: 3.5
+Description: With Simple Webchat you can quickly add a WhatsApp Button into your Website. Settings for <a href="options-general.php?page=QWA_quickwhatsapp">Simple Webchat Administration</a>
+Version: 3.6.1
 Author: Eric-Oliver Mächler
 Author URI: http://www.ericmaechler.com
-Requires at least: 3.5
-Tested up to: 6.5.5
+Requires at least: 4.0
+Tested up to: 6.7.1
+Text Domain: quick-whatsapp
+Domain Path: /languages
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -35,7 +37,7 @@ if ($quickwhatsapp_anzeige == '')
 	
 				function whatsapp_admin_notice__error() {
 				$class = 'notice notice-error';
-				$message = __( "Please finish installing the Quick Whatsapp plugin. To do this, go to Quick Whatsapp Administration", 'quick-whatsapp' );
+				$message = __( "Please finish installing the Simple Webchat plugin. To do this, go to Simple Webchat Administration", 'quick-whatsapp' );
 
 				printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), esc_html( $message ) ); 
 				}
@@ -67,48 +69,6 @@ $quickwhatsapps_floation_posi_rechts_nach_links_error = get_option('quickwhatsap
 			}
 
 	}
-
-//$beforefp = get_option('beforefp');
-//$behindfp = get_option('behindfp');
-
-//add_filter('the_content', 'add_messages');
-
-/*
-function add_messages( $content ) {
-        global $beforefp;
-        global $behindfp;
-     if( is_feed() ) {
-        return $beforefp.$content.$behindfp;
-          } else {
-        return $content;
-    }
-}
-*/
-
-/* ################################# BROWSERWEICHE #################### */
-/*
-$check_iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$check_android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-$check_palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-$check_berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$check_ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-// check if is a mobile
-if ($check_iphone || $check_android || $check_palmpre || $check_ipod || $check_berry == true)
-{
- //header('Location: https://api.whatsapp.com/send?phone=YOURNUMBER&text=YOURTEXT');
- //OR
- //echo "api.whatsapp.com/send?phone=YOURNUMBER&text=YOURTEXT";
-}
-// all others
-else {
- //header('Location: https://web.whatsapp.com/send?phone=YOURNUMBER&text=YOURTEXT');
- //OR
- //echo "https://web.whatsapp.com/send?phone=YOURNUMBER&text=YOURTEXT";
-}
-*/
-/* ################################# BROWSERWEICHE #################### */
-
-
 
 
 /* ------------------------------------------- Normale Chat / Sharing Funktion  ------------------------------------------ */

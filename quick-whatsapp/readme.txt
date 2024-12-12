@@ -2,20 +2,18 @@
 Contributors: Annubis
 Donate link: http://www.chefblogger.me
 Tags: whatsapp, share, chat, social media, contact
-Version: 3.5
-Requires at least: 4.0.1
-Tested up to: 6.5.2
-Stable tag: 3.5
+Version: 3.6.1
+Requires at least: 4.0
+Tested up to: 6.7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Ermöglicht es Webseitenbesuchern, Sie direkt über WhatsApp zu kontaktieren.
 
 == Description ==
 Improve your Customer Journey with a WhatsApp Chat Button. Allow your Customer to contact you with whatsapp and allow your customer to share your Site with WhatsApp
 
 Mit Quick WhatsApp bindet man schnell ein WhatsApp Chat Button ein und man kann ebenfalls einen WhatsApp Share Button einbinden und die Seite über WhatsApp teilen
-
-= New in Simple Webchat V3.5 =
-NEW: now you can use up to 3 whatsapp group shortcode
 
 = Features =
 Folgende Features sind bereits verfügbar
@@ -48,8 +46,6 @@ The following features are already available
 
 = Disclaimer =
 
-Dieses Plugin setzt weder ein Cookie noch "telefoniert" es nach Hause. 
-
 This Plugin does not set cookies or send any data to other website (or to me). 
 
 This Plugin is GDSVO / GDPR save !!
@@ -78,6 +74,8 @@ fertig
 == Upgrade Notice ==
 
 == Changelog ==
+  = v3.6 (12/12/2024) =
+  * update to new wp version
   = v3.5 (27/06/2024) =
   * Add shortcode for up to 3 whatsapp groups
   = v3.4 (05/02/2024) =

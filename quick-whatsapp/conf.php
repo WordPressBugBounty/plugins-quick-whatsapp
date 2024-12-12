@@ -6,12 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
   adminForm_quickwhatsapp();
  }
 
-/*
- function QWA_quickwhatsapp() {
-  add_options_page('Quick WhatsApp', 'Quick WhatsApp', 1, 'QWA_quickwhatsapp', 'save_quickwhatsapp');
- }
- add_action('admin_menu', 'QWA_quickwhatsapp');
-*/
+
 
 
 

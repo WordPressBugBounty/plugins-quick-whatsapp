@@ -2,7 +2,6 @@
 
 /*
 Dieser Code regelt den Whatsapp Button nach dem Add-To-Cart Button
-
 */
 
 add_action( 'woocommerce_after_add_to_cart_button', 'quick_whatsapp_after_addtocart_button' );
@@ -63,15 +62,7 @@ $whatsappbuttonbild_eigeneversion = "<a href='https://api.whatsapp.com/send?phon
 /* #################################################### */
 $quickwhatsapps_greetings = get_option('quickwhatsapps_greetings');
 	
-/*
-$check_iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$check_android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-$check_palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-$check_berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$check_ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-// check if is a mobile
-if ($check_iphone || $check_android || $check_palmpre || $check_ipod || $check_berry == true)
-*/
+
 
 if (wp_is_mobile())
 {
@@ -98,9 +89,6 @@ $whatsappbuttonbild_eigeneversion = "$quickwhatsapps_onlineoffline_offline_image
 	
 }
 	
-
-//$whatsappbuttonbild = "<a href='https://api.whatsapp.com/send?phone=$quickwhatsapp_anzeige' target='_blank'>$bilderurl</a>";
-//$whatsappbuttonbild_eigeneversion = "<a href='https://api.whatsapp.com/send?phone=$quickwhatsapp_anzeige' target='_blank'><img src='$quickwhatsappbutton_show'></a>";
 
 
 if ($quickwhatsappbutton_show == '')

@@ -18,11 +18,7 @@ add_action('wp_footer', 'quick_whatsapp_floating_button_footer');
 function quick_whatsapp_floating_button_footer() {
     $custom_items = get_option( 'option_name' );
 
-	/*
-	ECHO "
-	<a href='https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202.' class='float' target='_blank'><i class='fa fa-whatsapp my-float'></i></a>
-	";
-	*/
+
 
 /* ########################## ONLINE ###################*/
 $quickwhatsapp_tel = get_option('quickwhatsapp');
@@ -31,16 +27,7 @@ $quickwhatsapps_greetings = get_option('quickwhatsapps_greetings');
 //button
 $floating_button_img = '<img src="' . plugins_url( 'images/whatsapp-floatingbutton-w.png', __FILE__ ) . '" >';
 		
-	
-/*	
-$check_iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-$check_android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-$check_palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-$check_berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-$check_ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-// check if is a mobile
-if ($check_iphone || $check_android || $check_palmpre || $check_ipod || $check_berry == true)
-*/
+
 	
 if (wp_is_mobile())
 	
