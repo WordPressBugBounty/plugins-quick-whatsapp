@@ -3,8 +3,9 @@ Contributors: Annubis
 Donate link: http://www.chefblogger.me
 Tags: whatsapp, share, chat, social media, contact
 Version: 3.6.1
+Stable tag: 3.6.1
 Requires at least: 4.0
-Tested up to: 6.7.1
+Tested up to: 6.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +19,6 @@ Mit Quick WhatsApp bindet man schnell ein WhatsApp Chat Button ein und man kann 
 = Features =
 Folgende Features sind bereits verfügbar
 
-
 * WhatsApp Chat Funktion
 * WhatsApp Share Funktion
 * WhatsApp Chat Offline Funktion
@@ -28,7 +28,6 @@ Folgende Features sind bereits verfügbar
 * Chatanrede selbst definierbar
 * WhatsApp Gruppen
 * Shortcode für WhatsApp Gruppen
-
 
 = Features =
 The following features are already available
@@ -42,7 +41,6 @@ The following features are already available
 * Chat salutation can be defined by yourself
 * WhatsApp groups
 * Shortcode for WhatsApp groups
-
 
 = Disclaimer =
 
