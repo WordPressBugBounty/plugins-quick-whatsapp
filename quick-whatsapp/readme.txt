@@ -2,10 +2,10 @@
 Contributors: Annubis
 Donate link: http://www.chefblogger.me
 Tags: whatsapp, share, chat, social media, contact
-Version: 3.6.1
-Stable tag: 3.6.1
+Version: 3.6.2
+Stable tag: 3.6.2
 Requires at least: 4.0
-Tested up to: 6.8.2
+Tested up to: 7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,8 @@ fertig
 == Upgrade Notice ==
 
 == Changelog ==
+  = v3.6 (09/05/2026) =
+  * debug
   = v3.6 (12/12/2024) =
   * update to new wp version
   = v3.5 (27/06/2024) =
